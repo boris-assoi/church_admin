@@ -121,6 +121,8 @@ try
                 <script src="../js/jquery.js"></script>                 
                 <!-- Bootstrap Core JavaScript -->                 
                 <script src="../js/bootstrap.min.js"></script>
+                <!-- IN-VIEW js -->
+                <script src="../js/in-view.min.js"></script>
                 <!-- Datatable Javascript -->
                 <script src="../js/datatables.min.js"></script>
                 <script type="text/javascript">
@@ -144,18 +146,18 @@ try
                             "columnsDefs":[
                                 {
                                     "target":[0,3,4],
-                                    "orderable":false
+                                    "orderable":true
                                 }
                             ],
                             language:{
-                                processing:     "Traitement en cours...",
+                                processing:     "Traitement en cours ...",
                                 search:         "Filtrer&nbsp;:",
                                 lengthMenu:    "Afficher _MENU_ &eacute;l&eacute;ments",
                                 info:           "Affichage de l'&eacute;lement _START_ &agrave; _END_ sur _TOTAL_ &eacute;l&eacute;ments",
                                 infoEmpty:      "Affichage de l'&eacute;lement 0 &agrave; 0 sur 0 &eacute;l&eacute;ments",
                                 infoFiltered:   "(filtr&eacute; de _MAX_ &eacute;l&eacute;ments au total)",
                                 infoPostFix:    "",
-                                loadingRecords: "Chargement en cours...",
+                                loadingRecords: "Chargement des données ...",
                                 zeroRecords:    "Aucun &eacute;l&eacute;ment &agrave; afficher",
                                 emptyTable:     "Aucune donnée disponible dans le tableau",
                                 paginate: {
@@ -229,7 +231,7 @@ try
                                         <label class="control-label" for="formInput37">Type de membre</label>
                                         <select id="type" class="form-control" name="type" required="required"> 
                                             <?php
-                                                $request='SELECT type_lib FROM mesb_type_membre';
+                                                $request='SELECT type_lib FROM type_membre';
                                                 $req = $bdd->query($request);
                                                 while ($ok = $req->fetch())
                                                 {
@@ -286,7 +288,7 @@ try
                                         <label class="control-label" for="formInput37">Fonction dans l'église</label>
                                         <select id="cwork" class="form-control" name="cwork"> 
                                             <?php
-                                                $request='SELECT dpmt_lib FROM mesb_departement';
+                                                $request='SELECT dpmt_lib FROM departement';
                                                 $req = $bdd->query($request);
                                                 while ($ok = $req->fetch())
                                                 {
@@ -333,7 +335,7 @@ try
                                         <label class="control-label" for="formInput37">Situtation matrimoniale</label>
                                         <select id="formInput28" class="form-control" name="matri" id="matri"> 
                                             <?php
-                                                $request='SELECT matri_lib FROM mesb_matri';
+                                                $request='SELECT matri_lib FROM matri';
                                                 $req = $bdd->query($request);
                                                 while ($ok = $req->fetch())
                                                 {
@@ -353,7 +355,7 @@ try
                                         <select id="famille" class="form-control" name="famille">
                                             <option>Aucune</option>
                                             <?php
-                                                $request='SELECT famille_nom FROM mesb_famille';
+                                                $request='SELECT famille_nom FROM famille';
                                                 $req = $bdd->query($request);
                                                 while ($ok = $req->fetch())
                                                 {

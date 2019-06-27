@@ -3,7 +3,7 @@
 	include '../inc/functions.php';
 	$requete = '';
 	$output = array();
-	$requete .= 'SELECT * FROM mesb_membre ';
+	$requete .= 'SELECT * FROM membre ';
 	if (isset($_POST["search"]["value"])) {
 		$requete .= 'WHERE membre_nom LIKE "%'.$_POST["search"]['value'].'%" ';
 		$requete .= 'OR membre_prenom LIKE "%'.$_POST["search"]['value'].'%" ';
@@ -20,7 +20,7 @@
 		$requete .= 'LIMIT '.$_POST['start'].', '.$_POST['length'];
 	}
 
-	//Tableau contenant le retour de la statementuête
+	//Tableau contenant le retour de la statement
 	$data = array();
 
 	$statement = $bdd->prepare($requete);

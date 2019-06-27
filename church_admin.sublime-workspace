@@ -364,48 +364,12 @@
 	"buffers":
 	[
 		{
-			"file": "membre/fetch.php",
+			"contents": "SSLCipherSuite EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH\nSSLProtocol All -SSLv2 -SSLv3 -TLSv1 -TLSv1.1\nSSLHonorCipherOrder On\nHeader always set Strict-Transport-Security \"max-age=63072000; includeSubDomains; preload\"\nHeader always set X-Frame-Options DENY\nHeader always set X-Content-Type-Options nosniff\n# Requires Apache >= 2.4\nSSLCompression off\nSSLUseStapling on\nSSLStaplingCache \"shmcb:logs/stapling-cache(150000)\"\n# Requires Apache >= 2.4.11\nSSLSessionTickets Off",
 			"settings":
 			{
-				"buffer_size": 2359,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "membre/index.php",
-			"settings":
-			{
-				"buffer_size": 25612,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "inc/connexion.php",
-			"settings":
-			{
-				"buffer_size": 193,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sftp-config.json",
-			"settings":
-			{
-				"buffer_size": 1372,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "membre/insert.php",
-			"settings":
-			{
-				"buffer_size": 3696,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 475,
+				"line_ending": "Windows",
+				"name": "SSLCipherSuite EECDH+AESGCM:EDH+AESGCM:AES256+EECD"
 			}
 		}
 	],
@@ -417,9 +381,13 @@
 	"command_palette":
 	{
 		"height": 203.0,
-		"last_filter": "Package Control: ins",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
 			[
 				"Package Control: ins",
 				"Package Control: Install Package"
@@ -457,10 +425,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: ",
-				"Package Control: Install Package"
-			],
-			[
 				"Package Control: in",
 				"Package Control: Install Package"
 			]
@@ -472,6 +436,8 @@
 		"height": 118.0,
 		"history":
 		[
+			">git status",
+			"git status"
 		]
 	},
 	"distraction_free":
@@ -483,23 +449,60 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/wamp/www/church_admin",
-		"/C/wamp/www/church_admin/inc",
-		"/C/wamp/www/church_admin/membre"
-	],
 	"file_history":
 	[
+		"/C/wamp/www/ChartJS-13.1.5/Demos/demos/Charts/Advanced features/Series Templates.html",
+		"/C/Users/boris/Documents/Backup - DRI INEXA/www/helpdesk.inexa-ci.com/ajax/dropdownConnect.php",
+		"/C/Users/boris/Documents/Backup - DRI INEXA/www/helpdesk.inexa-ci.com/install/mysql/glpi-empty.sql",
+		"/C/Users/boris/OneDrive/Documents/Professionnel/Work/INEXA/Activité commerciale/Clients/OCI/Configuration/Accès distant/VPN/OCI.pcf",
+		"/C/wamp/www/pfn-2.3.3/data/.htaccess",
+		"/C/Users/boris/Desktop/config.php",
+		"/C/wamp/www/pfn-2.3.3/.htaccess",
+		"/C/wamp/www/wordpress/.htaccess",
+		"/C/wamp/www/odpja-web/pele/dompdf/lib/php-font-lib/.htaccess",
+		"/C/wamp/www/Symfony/fullsoft/web/.htaccess",
+		"/C/wamp/www/startbootstrap-sb-admin-gh-pages/tables.html",
+		"/C/Program Files/FreeLAN/config/freelan.cfg",
+		"/C/Users/boris/OneDrive/Documents/Professionnel/Work/INEXA/Activité commerciale/Clients/OCI/OCI.pcf",
+		"/C/Users/boris/index.html",
+		"/C/wamp/www/ChartJS-13.1.5/Demos/demos/Pie/Simple/Doughnut.html",
+		"/C/Users/boris/OneDrive/Documents/Others/grant_borismaster.sql",
+		"/C/wamp/www/ChartJS-13.1.5/js/dx.chartjs.debug.js",
+		"/C/Users/boris/OneDrive/Documents/Professionnel/Work/INEXA/Activité commerciale/Clients/OCI/Configuration/Certificat 3/Secureshare/Secureshare/CA/cert_secureshare.pfx",
+		"/C/Users/boris/OneDrive/Documents/Professionnel/Work/INEXA/Activité commerciale/Clients/OCI/Configuration/Certificat 3/Secureshare/Secureshare/CA/ROOT-CA.cer",
+		"/C/Users/boris/OneDrive/Documents/Professionnel/Work/INEXA/Activité commerciale/Clients/OCI/Configuration/Certificat 1/secureshare.ocitnetad.ci.key",
+		"/C/Users/boris/Pictures/iCloud Photos/Uploads/desktop.ini",
+		"/C/Users/boris/OneDrive/Documents/Professionnel/Work/MOOV/syslog.sql",
+		"/C/Users/boris/Documents/Default.rdp",
+		"/C/wamp/www/akfaley2/bootstrap/js/bootstrap.min.js",
+		"/C/Users/boris/OneDrive/Documents/Professionnel/Work/INEXA/Activité commerciale/Clients/OCI/Configuration/Certificat 3/Secureshare/Secureshare/CA/INTERMEDIATE-CA-pki-03.cer",
+		"/E/Documents/Cours/Software Development/Ressources/jquery-tutorials/jquery-tutorials/index.html",
+		"/E/Documents/Cours/Software Development/Ressources/jquery-tutorials/jquery-tutorials/animated-hover1.html",
+		"/E/Documents/Cours/Software Development/Ressources/jquery-tutorials/jquery-tutorials/chainable-effects.html",
+		"/C/wamp/www/church_admin/membre/fetch.php",
+		"/C/wamp/www/church_admin/membre/insert.php",
+		"/C/wamp/www/church_admin/membre/index.php",
+		"/C/wamp/www/church_admin/inc/connexion.php",
+		"/C/wamp/www/church_admin/sftp-config.json",
+		"/E/Documents/Cours/Software Development/Ressources/New_09-2013/ChartJS-13.1.5/Demos/demos/Pie/Simple/Doughnut.html",
+		"/E/Documents/Cours/Software Development/Ressources/New_09-2013/ChartJS-13.1.5/Demos/demos/Charts/Advanced features/Zooming.html",
+		"/E/Documents/Cours/Software Development/Ressources/New_09-2013/ChartJS-13.1.5/Demos/demos/RangeSelector/Behavior/Use Range Selection for Caclulation.html",
+		"/E/Documents/Cours/Software Development/Ressources/New_09-2013/ChartJS-13.1.5/Demos/demos/RangeSelector/Behavior/Use Range Selection for Filtering.html",
+		"/E/Documents/Cours/Software Development/Ressources/New_09-2013/jquery.mobile-1.3.1/index.html",
+		"/E/Documents/Cours/Software Development/Ressources/New_09-2013/ChartJS-13.1.5/Demos/demos/Pie/Custom Appearance/Doughnut Selection.html",
+		"/C/wamp/bin/php/php5.5.12/phpForApache.ini",
+		"/C/wamp/bin/apache/apache2.4.9/conf/httpd.conf",
+		"/C/Users/boris/Desktop/php_error.log",
+		"/C/wamp/bin/php/php5.5.12/php.ini",
+		"/C/Users/boris/Desktop/index.php",
+		"/C/Users/boris/Desktop/config.inc.php",
+		"/E/Documents/Cours/Programmation/JavaScript/Node.js",
 		"/C/Users/boris/AppData/Local/Temp/fz3temp-2/connect.php",
 		"/C/Users/boris/Documents/dumps/Dump20180425.sql",
 		"/C/wamp/www/phpinfo.php",
-		"/C/wamp/www/church_admin/membre/insert.php",
-		"/C/wamp/www/church_admin/membre/index.php",
 		"/C/Users/boris/Downloads/glpi-9.2.2/glpi/vendor/autoload.php",
 		"/C/wamp/www/church_admin/index.php",
 		"/C/wamp/www/church_admin/membre/updateMember.php",
-		"/C/wamp/www/church_admin/membre/fetch.php",
 		"/C/wamp/www/church_admin/inc/functions.php",
 		"/C/wamp/www/church_admin/member/member.php",
 		"/C/wamp/www/church_admin/member/newMember.php",
@@ -508,7 +511,6 @@
 		"/C/wamp/www/church_admin/member/updateMember.php",
 		"/C/wamp/www/church_admin/member/members.html",
 		"/C/wamp/www/church_admin/family/families.html",
-		"/C/wamp/www/church_admin/inc/connexion.php",
 		"/C/wamp/www/bootstrap-4.0.0/nuget/MyGet.ps1",
 		"/C/wamp/www/church_admin/member/updateMember.html",
 		"/C/wamp/www/church_admin/index.html",
@@ -560,7 +562,6 @@
 		"/C/wamp/www/axa-gaa/status.php",
 		"/C/wamp/bin/apache/apache2.4.9/error/README",
 		"/C/wamp/bin/apache/apache2.4.9/logs/install.log",
-		"/C/wamp/bin/apache/apache2.4.9/conf/httpd.conf",
 		"/C/wamp/bin/apache/apache2.4.9/manual/index.html.fr",
 		"/C/wamp/bin/apache/apache2.4.9/manual/license.html",
 		"/C/wamp/bin/php/php5.5.12/wampserver.conf",
@@ -577,52 +578,11 @@
 		"/C/wamp/bin/mysql/mysql5.6.17/COPYING",
 		"/C/wamp/bin/mysql/mysql5.6.17/Backup 1 of wampserver.conf",
 		"/C/wamp/bin/mysql/mysql5.6.17/wampserver.conf",
-		"/C/Users/boris/Downloads/PHPExcel-1.8/PHPExcel-1.8/Documentation/Examples/Calculations/Database/DCOUNT.php",
-		"/C/Program Files (x86)/Moov_WCA/MW40/uninst/unins000.msg",
-		"/C/Users/boris/Downloads/PHPExcel-1.8/PHPExcel-1.8/Classes/PHPExcel/Autoloader.php",
-		"/C/Users/boris/Downloads/PHPExcel-1.8/PHPExcel-1.8/changelog.txt",
-		"/C/wamp/www/PHPExcel-1.8/Examples/39dropdown.php",
-		"/C/wamp/www/PHPExcel-1.8/Documentation/Examples/Calculations/Database/DVAR.php",
-		"/C/wamp/www/PHPExcel-1.8/Documentation/Examples/Calculations/Database/DSTDEVP.php",
-		"/C/wamp/www/PHPExcel-1.8/Documentation/Examples/Calculations/Database/DSTDEV.php",
-		"/C/wamp/www/PHPExcel-1.8/Documentation/Examples/Calculations/Database/DPRODUCT.php",
-		"/C/wamp/www/PHPExcel-1.8/Documentation/Examples/Calculations/Database/DMIN.php",
-		"/C/wamp/www/PHPExcel-1.8/Documentation/Examples/Calculations/Database/DMAX.php",
-		"/C/wamp/www/PHPExcel-1.8/Documentation/Examples/Calculations/Database/DGET.php",
-		"/C/wamp/www/PHPExcel-1.8/Documentation/Examples/Calculations/Database/DCOUNT.php",
-		"/C/wamp/www/PHPExcel-1.8/Documentation/Examples/Calculations/Database/DAVERAGE.php",
-		"/C/wamp/www/PHPExcel-1.8/Examples/runall.php",
-		"/C/wamp/www/axa-gaa/css/bootstrap.css",
-		"/C/wamp/www/axa-gaa/font-awesome/css/font-awesome.css",
-		"/C/wamp/www/axa-gaa/bootstrap/css/bootstrap.css",
-		"/C/wamp/www/axa-gaa/css/sb-admin.css",
-		"/C/wamp/www/axa-gaa/sftp-config.json",
-		"/C/wamp/www/axa-gaa/inc/models.php",
-		"/C/wamp/bin/php/php5.5.12/php.ini",
-		"/C/wamp/www/axa-gaa/css/blocks.css",
-		"/D/Backup files - AXA LG2A - 09102017/dump26102017.sql",
-		"/C/wamp/www/index.php",
-		"/C/Program Files (x86)/EasyPHP-Webserver-14.1b2/www/axa-gaa/addAdmin.php",
-		"/C/Program Files (x86)/EasyPHP-Webserver-14.1b2/www/axa-gaa/inc/connection.php",
-		"/C/Program Files (x86)/EasyPHP-Webserver-14.1b2/binaries/dbserver/my.ini",
-		"/C/Program Files (x86)/EasyPHP-Webserver-14.1b2/www/axa-gaa/sftp-config.json",
-		"/C/Program Files (x86)/EasyPHP-Webserver-14.1b2/www/axa-gaa/inc/models.php",
-		"/C/Program Files (x86)/EasyPHP-Webserver-14.1b2/www/axa-gaa/certUpdating.php",
-		"/C/Program Files (x86)/EasyPHP-Webserver-14.1b2/www/axa-gaa/sales.php",
-		"/C/Program Files (x86)/EasyPHP-Webserver-14.1b2/www/axa-gaa/sellCert.php",
-		"/C/Program Files (x86)/EasyPHP-Webserver-14.1b2/www/axa-gaa/print/attest_auto/1.php",
-		"/C/Program Files (x86)/EasyPHP-Webserver-14.1b2/www/axa-gaa/print/attest_brune/1.php",
-		"/C/Program Files (x86)/EasyPHP-Webserver-14.1b2/www/axa-gaa/status.php",
-		"/C/wamp/www/AXA-GAA/sftp-config.json",
-		"/C/wamp/www/AXA-GAA/status.php",
-		"/C/wamp/www/AXA-GAA/inc/menu.php",
-		"/C/wamp/www/AXA-GAA/attrCertificate.php",
-		"/C/wamp/www/AXA-GAA/print/attest_brune/1.php",
-		"/C/wamp/www/AXA-GAA/print/attest_auto/1.php"
+		"/C/Users/boris/Downloads/PHPExcel-1.8/PHPExcel-1.8/Documentation/Examples/Calculations/Database/DCOUNT.php"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
@@ -636,6 +596,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"searc",
+			"fet",
+			"C:\\wamp\\bin\\apache\\apache2.4.9\\bin",
+			"urlAddLocalhost",
+			"suppress_localhost",
+			"zend",
 			"from",
 			"membre",
 			"memberModal",
@@ -665,132 +631,36 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": true,
+		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "membre/fetch.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2359,
+						"buffer_size": 475,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								132,
-								136
+								413,
+								413
 							]
 						],
 						"settings":
 						{
+							"auto_name": "SSLCipherSuite EECDH+AESGCM:EDH+AESGCM:AES256+EECD",
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "membre/index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 25612,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								56,
-								56
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "inc/connexion.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 193,
-						"regions":
-						{
-						},
-						"selection":
-						[
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "sftp-config.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1372,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								969,
-								969
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -798,45 +668,13 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "membre/insert.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3696,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								875,
-								879
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 21.0
+		"height": 22.0
 	},
 	"input":
 	{
@@ -881,7 +719,7 @@
 	"project": "church_admin.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -901,7 +739,7 @@
 		[
 			[
 				"",
-				"C:\\wamp\\www\\cifae\\cifae.sublime-project"
+				"C:\\wamp\\www\\LG2A-M2\\LG2A Module 2.sublime-project"
 			]
 		],
 		"width": 380.0

@@ -3,7 +3,7 @@
 	include '../inc/functions.php';
 
 	if (isset($_POST["operation"])) {
-		if ($_POST["operation"] == "ajouter") {
+		if ($_POST["operation"] == "Add") {
 			$requete = 'INSERT INTO mesb_membre (membre_type, membre_nom, membre_prenom, membre_sexe, membre_email, membre_adresse, membre_datenais, membre_lieunais, membre_ethnie, membre_nationalite, membre_profession, membre_dpmt, membre_origine, membre_est_baptise, membre_date_bapteme, membre_est_malade, membre_maladie, membre_maladie_duree, membre_est_retraite, membre_est_actif, membre_contact1, membre_contact2, membre_matri, membre_famille) 
     VALUES ((SELECT type_id FROM mesb_type_membre WHERE type_lib = :type),:nom,:prenom,:sexe,:email,:adresse,:datenais,:lieunais,:ethnie,:nation,:pro,:cwork,:oldchurch,:isbapteme,:datebapteme,:ismalade,:maladie,:datemaladie,:isretraite,:isactif,:contact1,:contact2,(SELECT matri_id FROM mesb_matri WHERE matri_lib = :matri),(SELECT famille_id FROM mesb_famille WHERE famille_nom = :famille))';
 
